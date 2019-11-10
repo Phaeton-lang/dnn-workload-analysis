@@ -1,0 +1,384 @@
+
+====================================================
+running alexnet offline - float16,dense...
+----------------------
+multiple core
+using prototxt: ../../../../../models/caffe/alexnet/alexnet_float16_dense_1batch.prototxt
+using model:    ../../../../../models/caffe/alexnet/alexnet_float16_dense.caffemodel
+dataparallel:  8,  modelparallel:  1,  threadnum:  4
+generating offline model...
+running multicore offline test...
+
+Global accuracy : 
+accuracy1: 0.554 (554/1000)
+accuracy5: 0.788 (788/1000)
+Hardware fps: 1319.68
+End2end throughput fps: 1250.61
+
+====================================================
+running alexnet offline - float16,sparse...
+----------------------
+multiple core
+using prototxt: ../../../../../models/caffe/alexnet/alexnet_float16_sparse_1batch.prototxt
+using model:    ../../../../../models/caffe/alexnet/alexnet_float16_sparse.caffemodel
+dataparallel:  8,  modelparallel:  1,  threadnum:  4
+generating offline model...
+running multicore offline test...
+
+Global accuracy : 
+accuracy1: 0.552 (552/1000)
+accuracy5: 0.789 (789/1000)
+Hardware fps: 2498.05
+End2end throughput fps: 1848.55
+
+====================================================
+running googlenet offline - float16,dense...
+----------------------
+multiple core
+using prototxt: ../../../../../models/caffe/googlenet/googlenet_float16_dense_1batch.prototxt
+using model:    ../../../../../models/caffe/googlenet/googlenet_float16_dense.caffemodel
+dataparallel:  8,  modelparallel:  1,  threadnum:  4
+generating offline model...
+running multicore offline test...
+
+Global accuracy : 
+accuracy1: 0.66 (660/1000)
+accuracy5: 0.878 (878/1000)
+Hardware fps: 1696.92
+End2end throughput fps: 1584.08
+
+====================================================
+running googlenet offline - float16,sparse...
+----------------------
+multiple core
+using prototxt: ../../../../../models/caffe/googlenet/googlenet_float16_sparse_1batch.prototxt
+using model:    ../../../../../models/caffe/googlenet/googlenet_float16_sparse.caffemodel
+dataparallel:  8,  modelparallel:  1,  threadnum:  4
+generating offline model...
+running multicore offline test...
+
+Global accuracy : 
+accuracy1: 0.66 (660/1000)
+accuracy5: 0.878 (878/1000)
+Hardware fps: 1639.69
+End2end throughput fps: 1545.09
+
+====================================================
+running inception-v3 offline - float16,dense...
+----------------------
+multiple core
+using prototxt: ../../../../../models/caffe/inception-v3/inception-v3_float16_dense_1batch.prototxt
+using model:    ../../../../../models/caffe/inception-v3/inception-v3_float16_dense.caffemodel
+dataparallel:  8,  modelparallel:  1,  threadnum:  4
+generating offline model...
+running multicore offline test...
+
+Global accuracy : 
+accuracy1: 0.682 (682/1000)
+accuracy5: 0.874 (874/1000)
+Hardware fps: 1126.88
+End2end throughput fps: 1081.08
+
+====================================================
+running inception-v3 offline - float16,sparse...
+----------------------
+multiple core
+using prototxt: ../../../../../models/caffe/inception-v3/inception-v3_float16_sparse_1batch.prototxt
+using model:    ../../../../../models/caffe/inception-v3/inception-v3_float16_sparse.caffemodel
+dataparallel:  8,  modelparallel:  1,  threadnum:  4
+generating offline model...
+running multicore offline test...
+
+Global accuracy : 
+accuracy1: 0.682 (682/1000)
+accuracy5: 0.874 (874/1000)
+Hardware fps: 1456.68
+End2end throughput fps: 1376.98
+
+====================================================
+running mobilenet offline - float16,dense...
+----------------------
+multiple core
+using prototxt: ../../../../../models/caffe/mobilenet/mobilenet_float16_dense_1batch.prototxt
+using model:    ../../../../../models/caffe/mobilenet/mobilenet_float16_dense.caffemodel
+dataparallel:  8,  modelparallel:  1,  threadnum:  4
+generating offline model...
+running multicore offline test...
+
+Global accuracy : 
+accuracy1: 0.659 (659/1000)
+accuracy5: 0.856 (856/1000)
+Hardware fps: 2123
+End2end throughput fps: 1823.44
+
+====================================================
+running mobilenet offline - float16,sparse...
+----------------------
+multiple core
+using prototxt: ../../../../../models/caffe/mobilenet/mobilenet_float16_sparse_1batch.prototxt
+using model:    ../../../../../models/caffe/mobilenet/mobilenet_float16_sparse.caffemodel
+dataparallel:  8,  modelparallel:  1,  threadnum:  4
+generating offline model...
+running multicore offline test...
+
+Global accuracy : 
+accuracy1: 0.659 (659/1000)
+accuracy5: 0.856 (856/1000)
+Hardware fps: 2086
+End2end throughput fps: 1808.87
+
+====================================================
+running resnet101 offline - float16,dense...
+----------------------
+multiple core
+using prototxt: ../../../../../models/caffe/resnet101/resnet101_float16_dense_1batch.prototxt
+using model:    ../../../../../models/caffe/resnet101/resnet101_float16_dense.caffemodel
+dataparallel:  8,  modelparallel:  1,  threadnum:  4
+generating offline model...
+running multicore offline test...
+
+Global accuracy : 
+accuracy1: 0.71 (710/1000)
+accuracy5: 0.874 (874/1000)
+Hardware fps: 470.547
+End2end throughput fps: 459.225
+
+====================================================
+running resnet101 offline - float16,sparse...
+----------------------
+multiple core
+using prototxt: ../../../../../models/caffe/resnet101/resnet101_float16_sparse_1batch.prototxt
+using model:    ../../../../../models/caffe/resnet101/resnet101_float16_sparse.caffemodel
+dataparallel:  8,  modelparallel:  1,  threadnum:  4
+generating offline model...
+running multicore offline test...
+
+Global accuracy : 
+accuracy1: 0.712 (712/1000)
+accuracy5: 0.874 (874/1000)
+Hardware fps: 620.5
+End2end throughput fps: 603.81
+
+====================================================
+running resnet152 offline - float16,dense...
+----------------------
+multiple core
+using prototxt: ../../../../../models/caffe/resnet152/resnet152_float16_dense_1batch.prototxt
+using model:    ../../../../../models/caffe/resnet152/resnet152_float16_dense.caffemodel
+dataparallel:  8,  modelparallel:  1,  threadnum:  4
+generating offline model...
+running multicore offline test...
+
+Global accuracy : 
+accuracy1: 0.713 (713/1000)
+accuracy5: 0.899 (899/1000)
+Hardware fps: 330.258
+End2end throughput fps: 324.611
+
+====================================================
+running resnet152 offline - float16,sparse...
+----------------------
+multiple core
+using prototxt: ../../../../../models/caffe/resnet152/resnet152_float16_sparse_1batch.prototxt
+using model:    ../../../../../models/caffe/resnet152/resnet152_float16_sparse.caffemodel
+dataparallel:  8,  modelparallel:  1,  threadnum:  4
+generating offline model...
+running multicore offline test...
+
+Global accuracy : 
+accuracy1: 0.712 (712/1000)
+accuracy5: 0.899 (899/1000)
+Hardware fps: 316.959
+End2end throughput fps: 311.512
+
+====================================================
+running resnet18 offline - float16,dense...
+----------------------
+multiple core
+using prototxt: ../../../../../models/caffe/resnet18/resnet18_float16_dense_1batch.prototxt
+using model:    ../../../../../models/caffe/resnet18/resnet18_float16_dense.caffemodel
+dataparallel:  8,  modelparallel:  1,  threadnum:  4
+generating offline model...
+running multicore offline test...
+
+Global accuracy : 
+accuracy1: 0.608 (608/1000)
+accuracy5: 0.831 (831/1000)
+Hardware fps: 2723.14
+End2end throughput fps: 1755.49
+
+====================================================
+running resnet18 offline - float16,sparse...
+----------------------
+multiple core
+using prototxt: ../../../../../models/caffe/resnet18/resnet18_float16_sparse_1batch.prototxt
+using model:    ../../../../../models/caffe/resnet18/resnet18_float16_sparse.caffemodel
+dataparallel:  8,  modelparallel:  1,  threadnum:  4
+generating offline model...
+running multicore offline test...
+
+Global accuracy : 
+accuracy1: 0.636 (636/1000)
+accuracy5: 0.852 (852/1000)
+Hardware fps: 3589.96
+End2end throughput fps: 1951.01
+
+====================================================
+running resnet34 offline - float16,dense...
+----------------------
+multiple core
+using prototxt: ../../../../../models/caffe/resnet34/resnet34_float16_dense_1batch.prototxt
+using model:    ../../../../../models/caffe/resnet34/resnet34_float16_dense.caffemodel
+dataparallel:  8,  modelparallel:  1,  threadnum:  4
+generating offline model...
+running multicore offline test...
+
+Global accuracy : 
+accuracy1: 0.694 (694/1000)
+accuracy5: 0.895 (895/1000)
+Hardware fps: 1513.78
+End2end throughput fps: 1420.27
+
+====================================================
+running resnet34 offline - float16,sparse...
+----------------------
+multiple core
+using prototxt: ../../../../../models/caffe/resnet34/resnet34_float16_sparse_1batch.prototxt
+using model:    ../../../../../models/caffe/resnet34/resnet34_float16_sparse.caffemodel
+dataparallel:  8,  modelparallel:  1,  threadnum:  4
+generating offline model...
+running multicore offline test...
+
+Global accuracy : 
+accuracy1: 0.689 (689/1000)
+accuracy5: 0.881 (881/1000)
+Hardware fps: 1847.92
+End2end throughput fps: 1675.27
+
+====================================================
+running resnet50 offline - float16,dense...
+----------------------
+multiple core
+using prototxt: ../../../../../models/caffe/resnet50/resnet50_float16_dense_1batch.prototxt
+using model:    ../../../../../models/caffe/resnet50/resnet50_float16_dense.caffemodel
+dataparallel:  8,  modelparallel:  1,  threadnum:  4
+generating offline model...
+running multicore offline test...
+
+Global accuracy : 
+accuracy1: 0.715 (715/1000)
+accuracy5: 0.888 (888/1000)
+Hardware fps: 833.856
+End2end throughput fps: 800.436
+
+====================================================
+running resnet50 offline - float16,sparse...
+----------------------
+multiple core
+using prototxt: ../../../../../models/caffe/resnet50/resnet50_float16_sparse_1batch.prototxt
+using model:    ../../../../../models/caffe/resnet50/resnet50_float16_sparse.caffemodel
+dataparallel:  8,  modelparallel:  1,  threadnum:  4
+generating offline model...
+running multicore offline test...
+
+Global accuracy : 
+accuracy1: 0.697 (697/1000)
+accuracy5: 0.884 (884/1000)
+Hardware fps: 1004.51
+End2end throughput fps: 960.823
+
+====================================================
+running squeezenet offline - float16,dense...
+----------------------
+multiple core
+using prototxt: ../../../../../models/caffe/squeezenet/squeezenet_float16_dense_1batch.prototxt
+using model:    ../../../../../models/caffe/squeezenet/squeezenet_float16_dense.caffemodel
+dataparallel:  8,  modelparallel:  1,  threadnum:  4
+generating offline model...
+running multicore offline test...
+
+Global accuracy : 
+accuracy1: 0.566 (566/1000)
+accuracy5: 0.788 (788/1000)
+Hardware fps: 2045.52
+End2end throughput fps: 1710.98
+
+====================================================
+running squeezenet offline - float16,sparse...
+----------------------
+multiple core
+using prototxt: ../../../../../models/caffe/squeezenet/squeezenet_float16_sparse_1batch.prototxt
+using model:    ../../../../../models/caffe/squeezenet/squeezenet_float16_sparse.caffemodel
+dataparallel:  8,  modelparallel:  1,  threadnum:  4
+generating offline model...
+running multicore offline test...
+
+Global accuracy : 
+accuracy1: 0.567 (567/1000)
+accuracy5: 0.789 (789/1000)
+Hardware fps: 2058.98
+End2end throughput fps: 1634.46
+
+====================================================
+running vgg16 offline - float16,dense...
+----------------------
+multiple core
+using prototxt: ../../../../../models/caffe/vgg16/vgg16_float16_dense_1batch.prototxt
+using model:    ../../../../../models/caffe/vgg16/vgg16_float16_dense.caffemodel
+dataparallel:  8,  modelparallel:  1,  threadnum:  4
+generating offline model...
+running multicore offline test...
+
+Global accuracy : 
+accuracy1: 0.665 (665/1000)
+accuracy5: 0.875 (875/1000)
+Hardware fps: 317.104
+End2end throughput fps: 306.721
+
+====================================================
+running vgg16 offline - float16,sparse...
+----------------------
+multiple core
+using prototxt: ../../../../../models/caffe/vgg16/vgg16_float16_sparse_1batch.prototxt
+using model:    ../../../../../models/caffe/vgg16/vgg16_float16_sparse.caffemodel
+dataparallel:  8,  modelparallel:  1,  threadnum:  4
+generating offline model...
+running multicore offline test...
+
+Global accuracy : 
+accuracy1: 0.702 (702/1000)
+accuracy5: 0.887 (887/1000)
+Hardware fps: 377.703
+End2end throughput fps: 362.818
+
+====================================================
+running vgg19 offline - float16,dense...
+----------------------
+multiple core
+using prototxt: ../../../../../models/caffe/vgg19/vgg19_float16_dense_1batch.prototxt
+using model:    ../../../../../models/caffe/vgg19/vgg19_float16_dense.caffemodel
+dataparallel:  8,  modelparallel:  1,  threadnum:  4
+generating offline model...
+running multicore offline test...
+
+Global accuracy : 
+accuracy1: 0.693 (693/1000)
+accuracy5: 0.907 (907/1000)
+Hardware fps: 270.821
+End2end throughput fps: 261.669
+
+====================================================
+running vgg19 offline - float16,sparse...
+----------------------
+multiple core
+using prototxt: ../../../../../models/caffe/vgg19/vgg19_float16_sparse_1batch.prototxt
+using model:    ../../../../../models/caffe/vgg19/vgg19_float16_sparse.caffemodel
+dataparallel:  8,  modelparallel:  1,  threadnum:  4
+generating offline model...
+running multicore offline test...
+
+Global accuracy : 
+accuracy1: 0.698 (698/1000)
+accuracy5: 0.89 (890/1000)
+Hardware fps: 356.986
+End2end throughput fps: 343.32
